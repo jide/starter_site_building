@@ -1,0 +1,14 @@
+name = Starter: Site building
+description = Starter Site building.
+core = 7.x
+package = Starter
+version = 7.x-1.0
+project = starter_site_building
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = field_group
+dependencies[] = views
+features[features_api][] = api:2
+project path = sites/all/modules/features
