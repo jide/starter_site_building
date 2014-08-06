@@ -10,5 +10,6 @@ dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = field_group
 dependencies[] = views
+dependencies[] = rules
 features[features_api][] = api:2
 project path = sites/all/modules/features
