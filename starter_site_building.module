@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the Starter: Site building feature.
  */
+
+include_once 'starter_site_building.features.inc';
