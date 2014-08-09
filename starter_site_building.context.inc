@@ -33,6 +33,13 @@ function starter_site_building_context_default_contexts() {
           'weight' => '-14',
           'title' => '<none>',
         ),
+        'search-form' => array(
+          'module' => 'search',
+          'delta' => 'form',
+          'region' => 'navigation',
+          'weight' => -13,
+          'title' => '<none>',
+        ),
       ),
     ),
   );

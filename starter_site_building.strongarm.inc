@@ -13,16 +13,23 @@ function starter_site_building_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'fences_default_classes';
+  $strongarm->name = 'ds_extras_field_template';
   $strongarm->value = 1;
-  $export['fences_default_classes'] = $strongarm;
+  $export['ds_extras_field_template'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'fences_default_markup';
+  $strongarm->name = 'ds_extras_vd';
   $strongarm->value = 1;
-  $export['fences_default_markup'] = $strongarm;
+  $export['ds_extras_vd'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ft-default';
+  $strongarm->value = 'theme_ds_field_minimal';
+  $export['ft-default'] = $strongarm;
 
   return $export;
 }
