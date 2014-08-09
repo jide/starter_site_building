@@ -3,6 +3,7 @@ api = "2"
 
 projects[views][subdir] = "contrib"
 projects[context][subdir] = "contrib"
+projects[context][patch][] = "https://www.drupal.org/files/issues/795058-75-context-block-title-reroll.patch"
 projects[ds][subdir] = "contrib"
 projects[field_group][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
