@@ -23,7 +23,19 @@ function starter_site_building_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'navigation',
+          'weight' => '-14',
+          'title' => '<none>',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
