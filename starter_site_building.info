@@ -25,6 +25,7 @@ dependencies[] = rules
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_system
+dependencies[] = cache_actions
 features[context][] = sitewide
 features[ctools][] = context:context:3
 features[ctools][] = strongarm:strongarm:1
